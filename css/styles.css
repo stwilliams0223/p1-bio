@@ -6,6 +6,10 @@
 
 body{
 
+	
+	font-size: 14px;
+	color: #404040;
+	margin: 0px;
 	background: url("../img/bg.png") #29A9FF;
 }
 
@@ -17,21 +21,21 @@ h1{
 }
 
 #name{
+
 	text-align: center;
-	color: white;
+	color: #0099FF;
 	font-family: 'Montserrat', sans-serif;
 	font-size:100px;
 	margin: 10px;
 	padding: 10px;
 	width: auto;
-	
 
+	
 }
 
 h2{
 
-
-color:pink;
+color: #0099FF;
 font-size:40px;
 
 
@@ -39,7 +43,13 @@ font-size:40px;
 
 h3{
 
-	color:white;
+	color:#E6005C;
+
+}
+
+h4{
+
+font-size:20px;
 
 }
 
@@ -50,18 +60,18 @@ h3{
 }
 
 a:link, a:visited { 
-    color: yellow;
+    color: #E6005C;
     text-decoration: none;
     cursor: auto;
 }
 
-a:link:active, a:visited:active { 
+a:link:active,  { 
     color: black;
 
 }
 
 a:hover{
-	color:white;
+	color:black;
 
 }
 
@@ -83,8 +93,51 @@ margin-left: 30px;
 
 }
 
-#body_background{
 
-background:white;
+
+#main {
+width: 822px;
+float: left;
+padding: 7px;
+padding-top: 0px;
+overflow: hidden;
 
 }
+
+#page {
+width: 1000px;
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+margin-right:10px;
+margin-bottom:10px;
+padding-top: 10px;
+padding-bottom: 20px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+border-radius: 4px;
+background-color: #ffffff;
+}
+
+#container{
+
+	padding-left: 750px;
+	font-size: 14px;
+	color: #404040;
+	margin: 0px;
+	background: url("../img/bg.png") #29A9FF;
+
+}
+
+
+#content{
+
+padding:10px;
+
+
+}
+
+
+
+
+
+
