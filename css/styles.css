@@ -1,0 +1,52 @@
+/* Your Website Styles */
+
+
+body{
+
+	background: url("../img/bg.png") #29A9FF;
+}
+
+h1{
+	background: red;
+	padding: 10px;
+	border: 10px black dotted;
+	width: 300px;
+	font-family: 'Montserrat', sans-serif;
+	color: #E00083;
+	font-style: italic;
+	margin: 10px;
+
+}
+
+#name{
+	color: white;
+
+}
+
+h3{
+
+	color: blue;
+
+}
+
+#leadin {
+	background: teal;
+}
+
+p{
+
+	line-height: 36px;
+
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.subhead {
+
+font-style:italic;
+margin-left: 30px;
+
+}
