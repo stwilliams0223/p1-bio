@@ -7,30 +7,50 @@ body{
 }
 
 h1{
-	background: red;
-	padding: 10px;
-	border: 10px black dotted;
-	width: 300px;
-	font-family: 'Montserrat', sans-serif;
+	
 	color: #E00083;
-	font-style: italic;
-	margin: 10px;
+	
 
 }
 
 #name{
 	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size:100px;
+	margin: 10px;
+	padding: 10px;
+	width: auto;
+	
+
+}
+
+h2{
+
+
+color:yellow;
+font-size:30px;
 
 }
 
 h3{
 
-	color: blue;
+	color:red;
 
 }
 
-#leadin {
-	background: teal;
+#main_nav {
+	font-size: 35px;
+	color: teal;
+}
+
+a:link, a:visited { 
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: yellow;
 }
 
 p{
