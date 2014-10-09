@@ -1,6 +1,9 @@
 /* Your Website Styles */
 
 
+
+}
+
 body{
 
 	background: url("../img/bg.png") #29A9FF;
@@ -14,6 +17,7 @@ h1{
 }
 
 #name{
+	text-align: center;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size:100px;
@@ -27,30 +31,38 @@ h1{
 h2{
 
 
-color:yellow;
-font-size:30px;
+color:pink;
+font-size:40px;
+
 
 }
 
 h3{
 
-	color:red;
+	color:white;
 
 }
 
 #main_nav {
-	font-size: 35px;
+	text-align: center;
+	font-size: 30px;
 	color: teal;
 }
 
 a:link, a:visited { 
-    color: white;
+    color: yellow;
     text-decoration: none;
     cursor: auto;
 }
 
 a:link:active, a:visited:active { 
-    color: yellow;
+    color: black;
+
+}
+
+a:hover{
+	color:white;
+
 }
 
 p{
@@ -68,5 +80,11 @@ p{
 
 font-style:italic;
 margin-left: 30px;
+
+}
+
+#body_background{
+
+background:white;
 
 }
