@@ -4,6 +4,8 @@
 
 }
 
+/*body styles*/
+
 body{
 
 	
@@ -13,6 +15,8 @@ body{
 	background: url("../img/bg.png") #29A9FF;
 }
 
+/*header tag styles*/
+
 h1{
 	
 	color: #E00083;
@@ -20,18 +24,6 @@ h1{
 
 }
 
-#name{
-
-	text-align: center;
-	color: #0099FF;
-	font-family: 'Montserrat', sans-serif;
-	font-size:100px;
-	margin: 10px;
-	padding: 10px;
-	width: auto;
-
-	
-}
 
 h2{
 
@@ -53,11 +45,8 @@ font-size:20px;
 
 }
 
-#main_nav {
-	text-align: center;
-	font-size: 30px;
-	color: teal;
-}
+/*anchor tag styles*/
+
 
 a:link, a:visited { 
     color: #E6005C;
@@ -81,34 +70,34 @@ p{
 
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+/*Id styles*/
+
+#name{
+
+	text-align: center;
+	color: #0099FF;
+	font-family: 'Montserrat', sans-serif;
+	font-size:100px;
+	margin: 10px;
+	padding: 10px;
+	width: auto;
+	
 }
 
-.subhead {
-
-font-style:italic;
-margin-left: 30px;
-
+#main_nav {
+	text-align: center;
+	font-size: 30px;
+	color: teal;
 }
 
 
-
-#main {
-width: 822px;
-float: left;
-padding: 7px;
-padding-top: 0px;
-overflow: hidden;
-
-}
+/*Some code below found on http://w3schools.com actual website structure*/
 
 #page {
 width: 1000px;
 float: left;
 margin-left: 10px;
-margin-top: 10px;
+margin-top: 24px;
 margin-right:10px;
 margin-bottom:10px;
 padding-top: 10px;
@@ -120,11 +109,20 @@ background-color: #ffffff;
 
 #container{
 
-	padding-left: 750px;
+	
 	font-size: 14px;
 	color: #404040;
 	margin: 0px;
 	background: url("../img/bg.png") #29A9FF;
+
+
+/*Below CSS code copied from http://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-a-div*/
+
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -135,6 +133,32 @@ padding:10px;
 
 
 }
+
+
+/* Show Grid */
+
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.subhead {
+
+font-style:italic;
+margin-left: 30px;
+
+}
+
+.main {
+width: 822px;
+float: left;
+padding: 7px;
+padding-top: 0px;
+overflow: hidden;
+
+}
+
+
+
 
 
 
