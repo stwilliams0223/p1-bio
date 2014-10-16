@@ -11,8 +11,8 @@ body{
 	
 	font-size: 14px;
 	color: #404040;
-	margin: 0px;
-	background: url("../img/bg.png") #29A9FF;
+	margin: 10px;
+	background: url("../img/square_bg.png") #29A9FF;
 }
 
 /*header tag styles*/
@@ -20,6 +20,8 @@ body{
 h1{
 	
 	color: #E00083;
+	
+
 	
 
 }
@@ -80,27 +82,33 @@ p{
 	font-size:100px;
 	margin: 1px;
 	padding: 5px;
-	width: auto;
+	
 	
 }
 
-#main_nav {
+nav {
 	text-align: center;
 	font-size: 30px;
 	color: teal;
+	position: fixed;
+	background-color: black;
+	width:100%;
+	top:left;
+
+
 }
 
 
 /*Some code below found on http://w3schools.com actual website structure*/
 
 #page {
-width: 1000px;
+width: 4100%;
 float: left;
 margin-left: 10px;
-margin-top: 24px;
+margin-top: 0px;
 margin-right:10px;
 margin-bottom:10px;
-padding-top: 10px;
+padding-top: 0px;
 padding-bottom: 20px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
 border-radius: 4px;
@@ -109,11 +117,11 @@ background-color: #ffffff;
 
 #container{
 
-	
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	color: #404040;
 	margin: 0px;
-	background: url("../img/bg.png") #29A9FF;
+	background: url("../img/whitey.png") #29A9FF;
 
 
 /*Below CSS code copied from http://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-a-div*/
@@ -130,6 +138,7 @@ background-color: #ffffff;
 #content{
 
 padding:10px;
+width: 100%;
 
 
 }
@@ -149,21 +158,18 @@ margin-left: 30px;
 }
 
 .main {
-width: 822px;
+width: 100%;
 float: left;
-padding: 7px;
-padding-top: 0px;
 overflow: hidden;
 
 }
 
 .headerimg{
 
+margin-top: 150px
 
 
 }
-
-
 
 
 
