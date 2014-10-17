@@ -20,9 +20,6 @@ body{
 h1{
 	
 	color: #E00083;
-	
-
-	
 
 }
 
@@ -32,7 +29,6 @@ h2{
 color: black;
 font-size:30px;
 font-family: 'Rock Salt', sans-serif;
-
 
 }
 
@@ -67,24 +63,15 @@ a:hover{
 
 }
 
+
+/*Moer element styling*/
+
 p{
 
 	line-height: 36px;
 
 }
-
-/*Id styles*/
-
-#logo{
-
-	text-align: center;
-	color: #0099FF;
-	font-family: 'Rock Salt', sans-serif;
-	font-size:40px;
-	margin: 10px;
 	
-	
-}
 
 nav {
 	text-align: center;
@@ -162,6 +149,20 @@ color:lime;
 
 /*Some code below found on http://w3schools.com actual website structure*/
 
+/*Id styles*/
+
+#logo{
+
+	text-align: center;
+	color: #0099FF;
+	font-family: 'Rock Salt', sans-serif;
+	font-size:40px;
+	margin: 10px;
+
+}
+
+
+
 #page {
 max-width: 1000px;
 min-width: 320px;
@@ -203,6 +204,7 @@ background: #ffffff;
 padding:30px;
 max-width: 1000px;
 min-width: 320px;
+margin-top: 100px;
 
 
 }
@@ -213,6 +215,9 @@ min-width: 320px;
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+
+/*Class styles*/
 
 .subhead {
 
@@ -287,6 +292,9 @@ margin-top:20px;
 
 
 }
+
+
+/*blockquote*/
 
 blockquote {
   background: #f9f9f9;
