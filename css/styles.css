@@ -15,6 +15,13 @@ body{
 	background: url("../img/square_bg.png") #29A9FF;
 }
 
+header{
+
+position: absolute; 
+
+
+}
+
 /*header tag styles*/
 
 h1{
@@ -176,6 +183,7 @@ padding-bottom: 20px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
 border-radius: 4px;
 background: #ffffff;
+
 
 }
 
